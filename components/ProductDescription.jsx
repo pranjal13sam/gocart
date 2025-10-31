@@ -10,7 +10,6 @@ const ProductDescription = ({ product }) => {
 
     return (
         <div className="my-18 text-sm text-slate-600">
-
             {/* Tabs */}
             <div className="flex border-b border-slate-200 mb-6 max-w-2xl">
                 {['Description', 'Reviews'].map((tab, index) => (
